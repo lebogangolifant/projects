@@ -1,5 +1,6 @@
 from turtle import *
 from random import randint
+
 speed(10)
 penup()
 goto(-140, 140)
@@ -40,6 +41,7 @@ trading.goto(-160, 40)
 trading.pendown()
 
 for turn in range(100):
-    coding.forward(randint(1,7))
-    documentary.forward(randint(1,7))
-    trading.forward(randint(1,7))
+    coding.forward(randint(1,8))
+    documentary.forward(randint(1,8))
+    trading.forward(randint(1,8))
+    trading.right(1)
