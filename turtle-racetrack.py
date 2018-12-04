@@ -14,7 +14,7 @@ for step in range(21):
     penup()
     backward(160)
     left(90)
-    forward(20)
+    forward(20)    
     
 coding = Turtle()
 coding.color('red')
