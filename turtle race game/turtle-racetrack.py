@@ -53,4 +53,5 @@ for turn in range(100):
     documentary.forward(randint(1,8))
     trading.forward(randint(1,8))
     photography.forward(randint(1,8))
-    trading.right(1)
+    trading.right(10)
+    coding.left(5)
