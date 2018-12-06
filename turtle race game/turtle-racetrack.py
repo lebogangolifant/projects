@@ -55,3 +55,4 @@ for turn in range(100):
     photography.forward(randint(1,8))
     trading.right(10)
     coding.left(5)
+    photography.right(1)
