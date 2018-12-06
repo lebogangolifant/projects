@@ -41,7 +41,7 @@ trading.goto(-160, 40)
 trading.pendown()
 
 photography = Turtle()
-photography.color('yellow')
+photography.color('gold')
 photography.shape('turtle')
     
 photography.penup()
