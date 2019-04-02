@@ -21,7 +21,7 @@ coding.color('red')
 coding.shape('turtle')
     
 coding.penup()
-coding.goto(-160, 100)
+coding.goto(-160, 10)
 coding.pendown()
 
 documentary = Turtle()
@@ -37,7 +37,7 @@ trading.color('blue')
 trading.shape('turtle')
     
 trading.penup()
-trading.goto(-160, 40)
+trading.goto(-160, 90)
 trading.pendown()
 
 photography = Turtle()
@@ -45,7 +45,7 @@ photography.color('gold')
 photography.shape('turtle')
     
 photography.penup()
-photography.goto(-160, 10)
+photography.goto(-160, 50)
 photography.pendown()
 
 for turn in range(100):
@@ -53,6 +53,4 @@ for turn in range(100):
     documentary.forward(randint(1,8))
     trading.forward(randint(1,8))
     photography.forward(randint(1,8))
-    trading.right(10)
-    coding.left(5)
-    photography.right(1)
+    
